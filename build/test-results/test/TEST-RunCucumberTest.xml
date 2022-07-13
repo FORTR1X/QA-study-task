@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RunCucumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-13T14:18:14" hostname="DESKTOP-BJP3FJH" time="70.508">
+  <properties/>
+  <testcase name="Purchases by filter" classname="RunCucumberTest" time="70.508"/>
+  <system-out><![CDATA[
+Scenario: Purchases by filter                                              ?[90m# src/test/resources/features/purchases_by_filter.feature:4?[0m
+  ?[32mGiven ?[0m?[32mIn footer ?[0m?[32m?[1m"223-Р¤Р—"?[0m?[32m, go to ?[0m?[32m?[1m"РџРѕСЃС‚Р°РІС‰РёРєР°Рј"?[0m                            ?[90m# steps.PurchasesByFilterDef.clickButtonInFooter(java.lang.String,java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mClick ?[0m?[32m?[1m"Р Р°СЃС€РёСЂРµРЅРЅС‹Р№ РїРѕРёСЃРє"?[0m?[32m button?[0m                                    ?[90m# steps.PurchasesByFilterDef.clickButton(java.lang.String)?[0m
+  ?[32mThen ?[0m?[32mOpen filter settings?[0m                                                ?[90m# steps.PurchasesByFilterDef.openFilterSettingButton()?[0m
+Исключить совместные закупки
+1
+  ?[32mAnd ?[0m?[32mIn ?[0m?[32m?[1m"Р‘С‹СЃС‚СЂС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё"?[0m?[32m click ?[0m?[32m?[1m"Р�СЃРєР»СЋС‡РёС‚СЊ СЃРѕРІРјРµСЃС‚РЅС‹Рµ Р·Р°РєСѓРїРєРё"?[0m?[32m checkbox?[0m ?[90m# steps.PurchasesByFilterDef.setCheckbox(java.lang.String,java.lang.String)?[0m
+615-ПП РФ
+1
+  ?[32mAnd ?[0m?[32mIn ?[0m?[32m?[1m"РџСЂР°РІРёР»Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ"?[0m?[32m click ?[0m?[32m?[1m"615-РџРџ Р Р¤"?[0m?[32m checkbox?[0m                   ?[90m# steps.PurchasesByFilterDef.setCheckbox(java.lang.String,java.lang.String)?[0m
+Алтайский край
+1
+  ?[32mAnd ?[0m?[32mIn ?[0m?[32m?[1m"Р РµРіРёРѕРЅ РїРѕСЃС‚Р°РІРєРё"?[0m?[32m click ?[0m?[32m?[1m"РђР»С‚Р°Р№СЃРєРёР№ РєСЂР°Р№"?[0m?[32m checkbox?[0m                 ?[90m# steps.PurchasesByFilterDef.setCheckbox(java.lang.String,java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58169
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл. 13, 2022 5:18:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+июл. 13, 2022 5:18:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>
